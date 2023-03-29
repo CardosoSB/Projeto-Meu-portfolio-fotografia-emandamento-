@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0; 
+    background-color: rgb(39, 38, 38);
+}
+#menu{
+    background-image: url(img/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    height: 550px;
+    width: 100%;
+    opacity: 0.9;
+    
+}
+#title{
+    color:white;
+    float:right;
+    margin-top: 230px;
+    margin-right: 367px;
+    margin-bottom: 0;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-weight: 100;
+    font-size: 120px;
+    line-height: 0.7;
+    
+}
+#slogan{
+    color:rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    float: left;
+    margin-top: 0px;
+    margin-left: 470px;
+}
+#menu ul{
+    float:left;
+    margin-left: 500px;
+    margin-top: 100px;
+    list-style-type: none;
+    background-color: rgb(209, 189, 230);
+    padding: 7px 15px 7px 15px;
+    font-size: 16px;
+    border-radius: 50px;
+    opacity: 0.85;
+    margin-bottom: 0;
+}
+#menu li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+#content {
+    margin-top: 0;
+    
+}
+#content h2 {
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom:0;
+}
+#content p{
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+}
+#photo {
+    padding: 20px;
+}
+#photo img {
+    margin-top: 80px;
+    width: 400px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 80px;
+   
+}
+.container{
+    margin-top: 0px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    
+}
+#portfolio img {
+    width:  200px;
+    padding:  20px;
+    border-radius: 50px;
+}
+.portfolioImg {
+    text-align: center;
+    
+}
+#photoB {
+    margin-top: 10px;
+}
+#photoN img{
+    width: 300px;
+}
+.photoH img{
+    width: 500px;
+    grid-auto-flow:row;
+}
+
+#contact {
+font-family: 'Mrs Saint Delafield', cursive;
+font-size: 60px;
+font-weight: 100;
+float:left;
+margin-top: 80px;
+color: white;
+margin-bottom: 0;
+}
+.contacts {
+background-color: rgb(77, 75, 75);
+height: 300px;
+}
+
+
+
+ /*font-family: 'Great Vibes', cursive;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-family: 'Pinyon Script', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rochester', cursive;
+    font-family: 'Tangerine', cursive;
+    font-family: 'Poppins', sans-serif;*/
